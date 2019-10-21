@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <title>chatbot</title>
+
+</head>
+
+<body style="background-color:gray;">
+
+     <form action="{% url 'my_function' %}">
+         {% csrf_token %}
+         <div align="center" style="color:blue">
+              <h1 style="color:orange" align="center">Wikipedia </h1>
+
+             Search anything: <input name="fulltextarea" />
+
+
+              <input type="submit"  value="search">
+         </div>
+
+     </form>
+     <div style="color:red">
+          {{ abcd }}
+     </div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{% group %}
+    {% block %}
+        {% response %}{% call search_wiki:%2 %}{% endresponse %}
+    {% endblock %}
+    {% block %}
+
+        {% response %}{% call search_wiki:%2 %}{% endresponse %}
+    {% endblock %}
+    {% block %}
+        {% response %}{% call search:%2 %}{% endresponse %}
+    {% endblock %}
+    {% block %}
+        {% response %}{% call search:%2 %}{% endresponse %}
+    {% endblock %}
+    {% block %}
+        {% client %}What are you{% endclient %}
+        {% response %}
+        I am the latest result in artificial intelligence,
+        which can reproduce the capabilities of the human brain
+        with greater speed and accuracy.
+        {% endresponse %}
+    {% endblock %}
+{% endgroup %}
